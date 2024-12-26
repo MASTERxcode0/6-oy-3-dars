@@ -1,0 +1,84 @@
+.card {
+  border: 1px solid black;
+  width: 420px;
+  padding: 10px;
+  font-family: Arial, sans-serif;
+}
+
+.cardimage {
+  width: 100%;
+  border: 1px solid black;
+  height: 200px;
+  margin-bottom: 10px;
+}
+.div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.cardtitle {
+  text-align: center;
+  margin: 0;
+}
+
+.cardcontent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.adres {
+  width: 100%;
+  background-color: darkorange;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+.p::before {
+  content: "";
+  position: absolute;
+  left: -5px;
+  top: 5px;
+  font-size: 1px;
+  padding: 5px;
+  border-radius: 50%;
+  border: none;
+  background-color: rgb(42, 65, 165);
+}
+
+li::before {
+  content: "";
+  position: absolute;
+  left: -15px;
+  top: 5px;
+  font-size: 1px;
+  padding: 5px;
+  border-radius: 50%;
+  border: none;
+  background-color: rgb(165, 42, 42);
+}
+ul {
+  background-color: chartreuse;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+ul > li {
+  position: relative;
+  list-style: none;
+}
+.p2 {
+  display: flex;
+  gap: 20px;
+}
+.cardleft p,
+.cardright p {
+  position: relative;
+  padding-left: 10px;
+  margin: 5px 0;
+}
+
+.cardright {
+  text-align: right;
+}
